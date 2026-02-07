@@ -23,5 +23,6 @@ def generate_image(
 
     print(f"Изображение сохранено как {output_path}")
 
+
 if __name__ == "__main__":
     generate_image()
