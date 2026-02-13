@@ -1,59 +1,65 @@
 {
-  "name": "SVG Training Dataset",
+  "name": "Simple SVG Dataset",
   "samples": [
     {
       "id": "tree_01",
       "category": "tree",
-      "prompt": "зеленое дерево с коричневым стволом",
+      "prompt": "зеленое дерево",
       "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"27\" y=\"40\" width=\"10\" height=\"24\" fill=\"#8B4513\"/>\n  <circle cx=\"32\" cy=\"30\" r=\"20\" fill=\"#228B22\"/>\n</svg>"
-    },
-    {
-      "id": "tree_02",
-      "category": "tree",
-      "prompt": "дерево с пышной кроной",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"29\" y=\"35\" width=\"6\" height=\"29\" fill=\"#654321\"/>\n  <circle cx=\"32\" cy=\"25\" r=\"15\" fill=\"#2E8B57\"/>\n  <circle cx=\"20\" cy=\"30\" r=\"12\" fill=\"#388E3C\"/>\n  <circle cx=\"44\" cy=\"30\" r=\"12\" fill=\"#388E3C\"/>\n  <circle cx=\"32\" cy=\"15\" r=\"10\" fill=\"#4CAF50\"/>\n</svg>"
     },
     {
       "id": "sky_01",
       "category": "sky",
       "prompt": "голубое небо с облаками",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <rect width=\"64\" height=\"64\" fill=\"#87CEEB\"/>\n  <circle cx=\"20\" cy=\"30\" r=\"8\" fill=\"#FFFFFF\"/>\n  <circle cx=\"30\" cy=\"25\" r=\"10\" fill=\"#FFFFFF\"/>\n  <circle cx=\"40\" cy=\"30\" r=\"8\" fill=\"#FFFFFF\"/>\n  <circle cx=\"50\" cy=\"40\" r=\"6\" fill=\"#FFFFFF\"/>\n</svg>"
-    },
-    {
-      "id": "sky_02",
-      "category": "sky",
-      "prompt": "небо с солнцем",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <rect width=\"64\" height=\"64\" fill=\"#1E90FF\"/>\n  <circle cx=\"50\" cy=\"15\" r=\"12\" fill=\"#FFD700\"/>\n  <circle cx=\"20\" cy=\"45\" r=\"5\" fill=\"#FFFFFF\"/>\n  <circle cx=\"40\" cy=\"50\" r=\"7\" fill=\"#FFFFFF\"/>\n</svg>"
+      "svg": "<svg width=\"64\" height=\"64\">\n  <rect width=\"64\" height=\"64\" fill=\"#87CEEB\"/>\n  <circle cx=\"20\" cy=\"30\" r=\"8\" fill=\"#FFFFFF\"/>\n  <circle cx=\"30\" cy=\"25\" r=\"10\" fill=\"#FFFFFF\"/>\n  <circle cx=\"40\" cy=\"30\" r=\"8\" fill=\"#FFFFFF\"/>\n</svg>"
     },
     {
       "id": "sea_01",
       "category": "sea",
-      "prompt": "синее море с волной",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <rect width=\"64\" height=\"64\" fill=\"#1E90FF\"/>\n  <path d=\"M 0,40 Q 16,30 32,40 T 64,40\" stroke=\"#FFFFFF\" stroke-width=\"3\" fill=\"none\"/>\n  <path d=\"M 0,50 Q 20,45 40,50 T 64,50\" stroke=\"#FFFFFF\" stroke-width=\"2\" fill=\"none\"/>\n</svg>"
+      "prompt": "синее море",
+      "svg": "<svg width=\"64\" height=\"64\">\n  <rect width=\"64\" height=\"64\" fill=\"#1E90FF\"/>\n  <path d=\"M 0,40 Q 16,30 32,40 T 64,40\" stroke=\"#FFFFFF\" stroke-width=\"3\" fill=\"none\"/>\n</svg>"
     },
     {
       "id": "cat_01",
       "category": "cat",
       "prompt": "серый кот",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <ellipse cx=\"32\" cy=\"40\" rx=\"18\" ry=\"15\" fill=\"#808080\"/>\n  <circle cx=\"32\" cy=\"25\" r=\"12\" fill=\"#808080\"/>\n  <circle cx=\"27\" cy=\"23\" r=\"3\" fill=\"#32CD32\"/>\n  <circle cx=\"37\" cy=\"23\" r=\"3\" fill=\"#32CD32\"/>\n  <circle cx=\"32\" cy=\"28\" r=\"2\" fill=\"#FF69B4\"/>\n</svg>"
+      "svg": "<svg width=\"64\" height=\"64\">\n  <ellipse cx=\"32\" cy=\"40\" rx=\"18\" ry=\"15\" fill=\"#808080\"/>\n  <circle cx=\"32\" cy=\"25\" r=\"12\" fill=\"#808080\"/>\n  <circle cx=\"27\" cy=\"23\" r=\"3\" fill=\"#32CD32\"/>\n  <circle cx=\"37\" cy=\"23\" r=\"3\" fill=\"#32CD32\"/>\n</svg>"
     },
     {
       "id": "cat_02",
       "category": "cat",
-      "prompt": "рыжий кот с ушами",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <ellipse cx=\"32\" cy=\"40\" rx=\"20\" ry=\"16\" fill=\"#D2691E\"/>\n  <circle cx=\"32\" cy=\"25\" r=\"14\" fill=\"#D2691E\"/>\n  <polygon points=\"25,15 20,25 30,20\" fill=\"#D2691E\"/>\n  <polygon points=\"39,15 44,25 34,20\" fill=\"#D2691E\"/>\n  <circle cx=\"28\" cy=\"24\" r=\"3\" fill=\"#00FF00\"/>\n  <circle cx=\"36\" cy=\"24\" r=\"3\" fill=\"#00FF00\"/>\n</svg>"
+      "prompt": "рыжий кот",
+      "svg": "<svg width=\"64\" height=\"64\">\n  <ellipse cx=\"32\" cy=\"40\" rx=\"20\" ry=\"16\" fill=\"#D2691E\"/>\n  <circle cx=\"32\" cy=\"25\" r=\"14\" fill=\"#D2691E\"/>\n  <polygon points=\"25,15 20,25 30,20\" fill=\"#D2691E\"/>\n  <polygon points=\"39,15 44,25 34,20\" fill=\"#D2691E\"/>\n</svg>"
     },
     {
       "id": "dog_01",
       "category": "dog",
       "prompt": "коричневая собака",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"22\" y=\"35\" width=\"20\" height=\"15\" rx=\"5\" fill=\"#8B4513\"/>\n  <circle cx=\"32\" cy=\"28\" r=\"10\" fill=\"#8B4513\"/>\n  <circle cx=\"28\" cy=\"26\" r=\"2\" fill=\"#000000\"/>\n  <circle cx=\"36\" cy=\"26\" r=\"2\" fill=\"#000000\"/>\n  <circle cx=\"32\" cy=\"30\" r=\"1.5\" fill=\"#000000\"/>\n</svg>"
+      "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"22\" y=\"35\" width=\"20\" height=\"15\" rx=\"5\" fill=\"#8B4513\"/>\n  <circle cx=\"32\" cy=\"28\" r=\"10\" fill=\"#8B4513\"/>\n  <circle cx=\"28\" cy=\"26\" r=\"2\" fill=\"#000000\"/>\n  <circle cx=\"36\" cy=\"26\" r=\"2\" fill=\"#000000\"/>\n</svg>"
     },
     {
-      "id": "dog_02",
-      "category": "dog",
-      "prompt": "собака с виляющим хвостом",
-      "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"20\" y=\"35\" width=\"24\" height=\"18\" rx=\"6\" fill=\"#A0522D\"/>\n  <circle cx=\"32\" cy=\"28\" r=\"12\" fill=\"#A0522D\"/>\n  <circle cx=\"27\" cy=\"26\" r=\"2.5\" fill=\"#000000\"/>\n  <circle cx=\"37\" cy=\"26\" r=\"2.5\" fill=\"#000000\"/>\n  <path d=\"M 44,40 Q 54,30 58,45\" stroke=\"#A0522D\" stroke-width=\"4\" fill=\"none\"/>\n</svg>"
+      "id": "house_01",
+      "category": "house",
+      "prompt": "домик с крышей",
+      "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"20\" y=\"30\" width=\"30\" height=\"25\" fill=\"#D2B48C\"/>\n  <polygon points=\"20,30 50,30 35,15\" fill=\"#8B4513\"/>\n  <rect x=\"30\" y=\"40\" width=\"10\" height=\"15\" fill=\"#8B4513\"/>\n</svg>"
+    },
+    {
+      "id": "sun_01",
+      "category": "sun",
+      "prompt": "желтое солнце",
+      "svg": "<svg width=\"64\" height=\"64\">\n  <circle cx=\"32\" cy=\"32\" r=\"20\" fill=\"#FFD700\"/>\n  <line x1=\"32\" y1=\"8\" x2=\"32\" y2=\"16\" stroke=\"#FFD700\" stroke-width=\"2\"/>\n  <line x1=\"32\" y1=\"48\" x2=\"32\" y2=\"56\" stroke=\"#FFD700\" stroke-width=\"2\"/>\n  <line x1=\"8\" y1=\"32\" x2=\"16\" y2=\"32\" stroke=\"#FFD700\" stroke-width=\"2\"/>\n  <line x1=\"48\" y1=\"32\" x2=\"56\" y2=\"32\" stroke=\"#FFD700\" stroke-width=\"2\"/>\n</svg>"
+    },
+    {
+      "id": "flower_01",
+      "category": "flower",
+      "prompt": "красный цветок",
+      "svg": "<svg width=\"64\" height=\"64\">\n  <circle cx=\"32\" cy=\"32\" r=\"10\" fill=\"#FF4500\"/>\n  <circle cx=\"22\" cy=\"22\" r=\"8\" fill=\"#FF4500\"/>\n  <circle cx=\"42\" cy=\"22\" r=\"8\" fill=\"#FF4500\"/>\n  <circle cx=\"22\" cy=\"42\" r=\"8\" fill=\"#FF4500\"/>\n  <circle cx=\"42\" cy=\"42\" r=\"8\" fill=\"#FF4500\"/>\n  <circle cx=\"32\" cy=\"52\" r=\"8\" fill=\"#228B22\"/>\n</svg>"
+    },
+    {
+      "id": "car_01",
+      "category": "car",
+      "prompt": "красная машина",
+      "svg": "<svg width=\"64\" height=\"64\">\n  <rect x=\"10\" y=\"35\" width=\"44\" height=\"15\" rx=\"5\" fill=\"#FF0000\"/>\n  <rect x=\"15\" y=\"25\" width=\"20\" height=\"15\" fill=\"#FF0000\"/>\n  <circle cx=\"20\" cy=\"50\" r=\"5\" fill=\"#000000\"/>\n  <circle cx=\"44\" cy=\"50\" r=\"5\" fill=\"#000000\"/>\n</svg>"
     }
   ]
 }
