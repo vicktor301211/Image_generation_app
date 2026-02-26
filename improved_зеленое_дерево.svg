@@ -1,0 +1,5 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <!-- зеленое дерево -->
+  <rect x="27" y="40" width="10" height="24" fill="brown"/>
+  <circle cx="32" cy="30" r="18" fill="rgb(0, 75, 20)"/>
+</svg>

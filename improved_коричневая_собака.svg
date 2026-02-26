@@ -1,0 +1,9 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <!-- коричневая собака -->
+  <circle cx="32" cy="32" r="20" fill="rgb(137, 73, 21)"/>
+  <circle cx="27" cy="27" r="3" fill="white"/>
+  <circle cx="37" cy="27" r="3" fill="white"/>
+  <circle cx="27" cy="27" r="1.5" fill="black"/>
+  <circle cx="37" cy="27" r="1.5" fill="black"/>
+  <ellipse cx="32" cy="38" rx="5" ry="3" fill="black"/>
+</svg>

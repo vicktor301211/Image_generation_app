@@ -1,0 +1,5 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <!-- синее море -->
+  <rect width="64" height="64" fill="rgb(0, 113, 192)"/>
+  <path d="M 0,45 Q 16,40 32,45 T 64,45" stroke="white" stroke-width="2" fill="none"/>
+</svg>

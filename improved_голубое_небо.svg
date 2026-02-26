@@ -1,0 +1,5 @@
+<svg width="64" height="64" xmlns="http://www.w3.org/2000/svg">
+  <!-- голубое небо -->
+  <rect width="64" height="64" fill="rgb(134, 203, 232)"/>
+  <circle cx="50" cy="15" r="8" fill="yellow"/>
+</svg>
